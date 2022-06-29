@@ -13,6 +13,7 @@ namespace 单例模式
         private void Form1_Load(object sender, EventArgs e)
         {
             Singleton.Instance.ToString();
+
         }
     }
     public class Singleton
