@@ -37,7 +37,7 @@ namespace 单例模式
                         if (_Instance == null)
                         {
                             _Instance = new Singleton();
-                            Debug.Write("Instance = new dd");
+                            Debug.Write("Instance = new Singleton");
                         }
                     }
                 }
